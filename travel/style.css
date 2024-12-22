@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    background-color:rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    margin: 30px 0px 0px 0px;
+    width: 660px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav ol {
+    /* width: 1ovw; */
+    display: flex;
+    margin: 40px 0px 0px 30px;
+}
+nav ol p{
+    margin: 8px;
+    width: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ol button{
+    margin-left: 5px;
+    width: 12vw;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+}
+
+.cover {
+    margin: 0px;
+}
+
+.cover img {
+    margin-top: -400px;
+    object-position: 0px 400px;
+    position: relative;
+}
+
+.cover-content h2 {
+    margin: -120px 0px 40px -150px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.cover-content {
+    position: absolute;
+    margin: -500px 0px 0px 500px;
+}
+
+.cover-content :placeholder-shown {
+    position: relative;
+    width: 30vw;
+    padding: 15px;
+    color: black;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.cover-content img {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 15px;
+}
+
+.cover-content ul {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 32vw;
+    background-color: rgb(35, 104, 183);
+    margin: 150px 0px 0px -450px;
+}
+
+.cover-content ul li {
+    list-style: none;
+    padding: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cover-content ol {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: rgb(168, 44, 182);
+    margin-top: -50px;
+    margin-left: 450px;
+    width: 34vw;
+}
+
+.cover-content ol li {
+    list-style: none;
+    padding: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.message {
+    position: relative;
+    margin-top: -3px;
+    width: 100vw;
+    height: 6vh;
+    background-color: black;
+}
+
+.message p {
+    position: absolute;
+    color: white;
+    margin-top: 15px;
+    animation: ani 15s ease-out infinite 2s alternate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes ani {
+    from {
+        color: white
+    }
+
+    to {
+        color: white;
+        translate: 1500px;
+    }
+}
+
+.g-block {
+    width: 100vw;
+    height: 160vh;
+    background-color: rgb(217, 217, 217);
+    position: relative;
+}
+
+.exclusives h1 {
+    position: absolute;
+    margin: -1300px 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    width: 2000px;
+}
+
+.grid {
+    position: absolute;
+    margin-top: -1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 15px;
+}
+
+.item {
+    width: 300px;
+    margin: 50px;
+    margin-left: 120px;
+}
+
+.item p {
+    margin: 30px 0px 0px 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.section2 h1{
+    margin: 50px 0px 0px  570px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.grid2{
+    width: 100vw;
+
+}
+.item2{
+    display:inline-block;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.item2 p{
+    margin: 20px 0px 0px 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.cover2 img{
+    position: relative;
+    margin: 50px 0px 0px 105px;
+    border:1px solid white;
+    border-radius: 50px;
+}
+.cover2 h1{
+    position: absolute;
+    margin: -460px 0px 0px 700px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cover2 p{
+    position:absolute;
+    margin: -290px 0px 0px 700px;
+    color: white;
+    font-size: 25px;
+    width: 650px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cover2 button{
+    position: absolute;
+    margin: 550px -550px;
+    width: 15vw;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(154, 21, 43);
+}
+.packages{
+    width: 100vw;
+    margin:20px;
+    display: flex;
+}
+.img1{
+    margin: 20px;
+}
+.img1 h2{
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img1 h3{
+    margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.img1 p{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.packages button{
+    margin-top: 450px;
+    margin-left: -850px;
+    border: 2px solid white;
+    width: 15vw;
+    padding: 15px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(154,21,43);
+    border-radius: 50px;
+}
+h1{
+    margin: 20px;
+}
+footer{
+    margin-top: 100px;
+}
+.foot{
+    display: flex;
+}
+.line1 ul{
+    margin-left: 100px;
+}
+.line1 ul li{
+    list-style: none;
+    padding: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.contact ul{
+    margin-left: 100px;
+}
+.contact ul li{
+    list-style: none;
+    padding: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 20px;
+}
+.follow h2{
+    margin-top: 50px;
+    margin-left: 550px;
+    font-size:30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.follow ul{
+    margin-left: 300px;
+}
+.follow img{
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.about p{
+    margin-top: 60px;
+    margin-left: 450px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+}
+.bottom p{
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bottom h5{
+    margin-top: 25px;
+    margin-left: 560px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
